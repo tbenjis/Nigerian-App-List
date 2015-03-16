@@ -1,5 +1,88 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Nigerian App List - Providing an open database of mobile apps built for Nigerians</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="NigerianAppList.com provides an open database of all mobile applications built by Nigerians and for Nigerians. ">
+    <meta name="author" content="NigerianAppList">
+
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu&amp;subset=latin" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Gentium+Book+Basic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="./css/style.css?2908" media="all">
+
+    <!--[if lt IE 9]> <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+
+    <link rel="shortcut icon" href="./img/ico/favicon.ico">
+    <link rel="apple-touch-icon" sizes="144x144" href="./img/ico/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./img/ico/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./img/ico/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" href="./assets/ico/apple-touch-icon-57x57.png">
+</head>
+
 <body>
-<h3> Open database of Android applications built in Nigeria</h3><br/><a href="https://github.com/tbenjis/Nigerian-App-List">https://github.com/tbenjis/Nigerian-App-List</a>
-</body>
+
+    <a href="https://github.com/tbenjis/Nigerian-App-List" class="github" target="_blank"><img src="https://s3.amazonaws.com/github/ribbons/forkme_left_green_007200.png" alt="Fork me on GitHub"></a>
+
+    <!-- ==========================
+    NAVBAR
+    =========================== -->
+    <div class="navbar navbar-fixed-top pbhead">
+        <img src="./img/logo.png" alt="Nigerian App List" width="300" height="50">
+        <h1>An open database of mobile apps for Nigerians</h1>
+        <h1><a href="https://github.com/tbenjis/Nigerian-App-List" target="_blank">Contribute to the project on GitHub</a></h1>
+        <ul>
+            <li>
+                <a href="https://twitter.com/share" class="twitter-share-button" data-text="An open database of mobile apps built for Nigerians #nigerianapplist ->" ></a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            </li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <!-- ==========================
+        SEARCH
+        =========================== -->
+        <div class="row">
+            
+            <div class="searchpane">
+                <input type="text" class="span10" placeholder="Search for an app, category or publisher" name="searchtext"/>
+            </div>
+        </div>
+
+        <!-- APPS -->
+        <div class="row" id="appswrap">
+
+            <div class="span4 appsection">
+                <div class="view"></div>
+                <div title="{{ title }}" id="cover" style="background:black url('{{cover}}') no-repeat center;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;">
+                </div>
+                <h2 title="{{ AppName }}">{{AppName}}</h2>
+
+              <h3><a href="{{publisherUrl}}" target="_blank">{{publisher}}</a></h3>
+              <p class="level">{{category}}</p>
+              <p class="description">{{info}}
+
+                <span class="dwnspan">
+                 <a href="{{url}}" class="applink" target="_blank" alt="{{AppOS}}">Android</a>
+                 <a href="{{url}}" class="applink" target="_blank" alt="{{AppOS}}">IOS</a>
+                </span>
+
+              </p>
+            </div>
+        </div>
+        <!-- APPS -->
+    </div>
+
+    <!-- ==========================
+    FOOTER
+    =========================== -->
+    <div class="footer">
+        <hr>
+        <p>Providing an open database of mobile applications built by Nigerians and for Nigerians</p>
+
+        <a href="mailto:info@nigerianapplist.com" target="_blank" alt="NigerianAppList" id="footerlink">Get in touch</a> <br>
+    </div>
+ 
+  </body>
 </html>
