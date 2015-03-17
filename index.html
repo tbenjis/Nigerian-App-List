@@ -58,19 +58,18 @@
         =========================== -->
         <div class="row" id="appswrap" ng-controller="AppListController">
 
-            <div class="span4 appsection">
+            <div class="span4 appsection" ng-repeat="app in applist">
                 <div class="view"></div>
-                <div title="{{ title }}" id="cover" style="background:black url('{{cover}}') no-repeat center;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;">
+                <div title="{{ app.appName }}" id="cover" style="background:black url('{{app.appLogo}}') no-repeat center;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;">
                 </div>
-                <h2 title="{{ AppName }}">{{AppName}}</h2>
+                <h2 title="{{ app.appName }}">{{app.appName}}</h2>
 
-              <h3><a href="{{publisherUrl}}" target="_blank">{{publisher}}</a></h3>
-              <p class="level">{{category}}</p>
-              <p class="description">{{info}}
-
-                <span class="dwnspan">
-                 <a href="{{url}}" class="applink" target="_blank" alt="{{AppOS}}">Android</a>
-                 <a href="{{url}}" class="applink" target="_blank" alt="{{AppOS}}">IOS</a>
+              <h3><a href="{{app.publisherUrl}}" target="_blank">{{app.appPublisher}}</a></h3>
+              <p class="level">{{app.appCategory}}</p>
+              <p class="description">{{app.appDescription}}
+                <!-- Get the app links -->
+                <span class="dwnspan" ng-repeat="(key, value) in app.appLink">
+                 <a href="{{value}}" class="applink" target="_blank" alt="{{key}}">{{key}}</a>
                 </span>
 
               </p>

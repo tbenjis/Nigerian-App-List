@@ -6,10 +6,11 @@
         "appCategory": "Entertainment",
         "appDescription": "Akpos jokes app provides funny jokes on your mobile phone, you can add yours and rate others.",
         "appLogo": "img/apps/akposjokes.jpg",
-        "address": [
-                {
-                    "androidUrl": "https://play.google.com/store/apps/details?id=com.stackarena.akposjokes"                    
-                }
+        "appLink": [
+                        {
+                            "type": "Android",
+                            "url": "https://play.google.com/store/apps/details?id=com.stackarena.akposjokes"
+                        }
             ]
     },
     {
@@ -19,11 +20,17 @@
         "appCategory": "Social",
         "appDescription": "Get access to jobs and vacancies in Nigeria from Nigeria's Jobs Website. Jobberman.com",
         "appLogo": "img/apps/jobberman.jpg",
-        "address": [
-                {
-                    "androidUrl": "https://play.google.com/store/apps/details?id=com.jobberman",
-                    "iosUrl": "https://itunes.apple.com/us/app/jobberman/id716603451?mt=8"
-                }
+        "appLink": [
+                
+                        {
+                            "type": "Android",
+                            "url": "https://play.google.com/store/apps/details?id=com.jobberman"
+                        },
+                        {
+                            "type": "IOS",
+                            "url": "https://itunes.apple.com/us/app/jobberman/id716603451?mt=8"
+                        }
+                
             ]
     }
 ]}

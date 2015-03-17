@@ -20,5 +20,6 @@ controllers.AppListController = function($scope, $http) {
     $http.get('./applist.json').success(function(data) {
     $scope.applist = data.apps;
   });
+}
 
 app.controller(controllers);
