@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app>
 <head>
     <meta charset="utf-8">
     <title>Nigerian App List - Providing an open database of mobile apps built for Nigerians</title>
@@ -53,8 +53,10 @@
             </div>
         </div>
 
-        <!-- APPS -->
-        <div class="row" id="appswrap">
+        <!-- ==========================
+        APPS
+        =========================== -->
+        <div class="row" id="appswrap" ng-controller="AppsController">
 
             <div class="span4 appsection">
                 <div class="view"></div>
