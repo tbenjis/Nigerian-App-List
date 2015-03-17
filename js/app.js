@@ -17,10 +17,15 @@ var app = angular.module('naijaApp', []); //The app module
 //creating a controller object incase we need more controllers
 var controllers = {};
 
+//lets sort the app list at random
+function randSrt(){
+      return (Math.round(Math.random())-0.5); 
+    }
+
 //we get the list from applist.json
 controllers.AppListController = function($scope, $http) {
     $http.get('./applist.json').success(function(data) {
-    $scope.applist = data.apps;
+    $scope.applist = data.apps.sort(randSrt); //sort the applist here
   });
 }
 

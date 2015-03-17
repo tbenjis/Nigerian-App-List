@@ -30,5 +30,48 @@
                             "url": "https://itunes.apple.com/us/app/jobberman/id716603451?mt=8"
                         }                
             ]
+    },
+    {
+        "appName": "MultiTexter Bulk SMS",
+        "appPublisher": "Lordandi Solutionscorp",
+        "publisherUrl": "http://www.multitexter.com/",
+        "appCategory": "Communication",
+        "appDescription": "MultiTexter Bulk SMS allows you to easily send bulk SMS to numbers on your phone.",
+        "appLogo": "img/apps/multitexter.jpg",
+        "appLink": [                
+                        {
+                            "type": "Android",
+                            "url": "https://play.google.com/store/apps/details?id=com.lordni.multitextersms"
+                        }               
+            ]
+    },
+    {
+        "appName": "Sound Meter for Android",
+        "appPublisher": "EdgeWalk",
+        "publisherUrl": "https://play.google.com/store/apps/developer?id=EdgeWalk",
+        "appCategory": "Tools",
+        "appDescription": "Sound Meter for Android allows you to measure environmental noise with your mobile phone.",
+        "appLogo": "img/apps/soundmeter.jpg",
+        "appLink": [                
+                        {
+                            "type": "Android",
+                            "url": "https://play.google.com/store/apps/details?id=com.edgewalk.soundmeter"
+                        }               
+            ]
+    },
+    {
+        "appName": "Nigerian Constitution",
+        "appPublisher": "Pledge51",
+        "publisherUrl": "http://www.pledge51.com/",
+        "appCategory": "Books & Reference",
+        "appDescription": "The Nigerian Constitution for all project hopes to address the lack of knowledge of the nation's laws on the part of the citizenry.",
+        "appLogo": "img/apps/nigerianconst.jpg",
+        "appLink": [                
+                        {
+                            "type": "Android",
+                            "url": "https://play.google.com/store/apps/details?id=com.pledge51.nigerianconstitution"
+                        }               
+            ]
     }
+
 ]}
