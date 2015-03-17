@@ -5,7 +5,7 @@
         "publisherUrl": "http://www.stackarena.com/",
         "appCategory": "Entertainment",
         "appDescription": "Akpos jokes app provides funny jokes on your mobile phone, you can add yours and rate others.",
-        "appLogo": "img/akposjokes.jpg",
+        "appLogo": "img/apps/akposjokes.jpg",
         "address": [
                 {
                     "androidUrl": "https://play.google.com/store/apps/details?id=com.stackarena.akposjokes"                    
@@ -18,7 +18,7 @@
         "publisherUrl": "http://www.jobberman.com",
         "appCategory": "Social",
         "appDescription": "Get access to jobs and vacancies in Nigeria from Nigeria's Jobs Website. Jobberman.com",
-        "appLogo": "img/jobberman.jpg",
+        "appLogo": "img/apps/jobberman.jpg",
         "address": [
                 {
                     "androidUrl": "https://play.google.com/store/apps/details?id=com.jobberman",
