@@ -68,8 +68,10 @@
               <p class="level">{{app.appCategory}}</p>
               <p class="description">{{app.appDescription}}
                 <!-- Get the app links -->
-                <span class="dwnspan" ng-repeat="(key, value) in app.appLink">
-                 <a href="{{value}}" class="applink" target="_blank" alt="{{key}}">{{key}}</a>
+                <span class="dwnspan" >
+                    <span ng-repeat="links in app.appLink">
+                         <a href="{{links.url}}" class="applink" target="_blank" alt="{{links.type}}">{{links.type}}</a>
+                    </span>
                 </span>
 
               </p>
