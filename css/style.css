@@ -1646,11 +1646,16 @@ ul li a:hover {
       font: normal 14px 'Ubuntu', Helvetica, Arial, sans-serif;
     }
   .appsection {
-    height: 150px;
+    height: 140px;
+	margin-bottom: 15px;
   }
   .appsection #cover {
-    width: 140px;
-    height: 140px;
+    width: 90px;
+    height: 90px;
+  }
+  .appsection .view {
+    width: 90px;
+    height: 90px;
   }
   
 }
