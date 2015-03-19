@@ -72,6 +72,60 @@
                             "url": "https://play.google.com/store/apps/details?id=com.pledge51.nigerianconstitution"
                         }               
             ]
+    },
+    {
+        "appName": "Wynk Music Nigeria",
+        "appPublisher": "Airtel Nigeria",
+        "publisherUrl": "http://www.wynk.ng/",
+        "appCategory": "Music & Audio",
+        "appDescription": "Wynk Music Nigeria is a music streaming app with over 20 million songs from the top national and international artists.",
+        "appLogo": "img/apps/wynkmusic.jpg",
+        "appLink": [                
+                        {
+                            "type": "Android",
+                            "url": "https://play.google.com/store/apps/details?id=com.airtel.ng.android.music"
+                        },
+                        {
+                            "type": "IOS",
+                            "url": "https://itunes.apple.com/ng/app/wynk-music-nigeria/id918176985?mt=8"
+                        }                    
+            ]
+    },
+    {
+        "appName": "Konga",
+        "appPublisher": "Konga Online Shopping Ltd",
+        "publisherUrl": "http://www.konga.com/",
+        "appCategory": "Shopping",
+        "appDescription": "The Konga Android App is a convenient, secure and fast way to access your favourite products and services on konga.com.",
+        "appLogo": "img/apps/konga.jpg",
+        "appLink": [                
+                        {
+                            "type": "Android",
+                            "url": "https://play.google.com/store/apps/details?id=com.konga.androida"
+                        },
+                        {
+                            "type": "IOS",
+                            "url": "https://itunes.apple.com/us/app/konga/id880918394?mt=8"
+                        }                    
+            ]
+    },
+    {
+        "appName": "JUMIA Online shopping",
+        "appPublisher": "AIG Mobile",
+        "publisherUrl": "http://www.jumia.com/",
+        "appCategory": "Shopping",
+        "appDescription": "Experience shopping at its best! Shop anywhere at any time with the convenient and secure JUMIA app.",
+        "appLogo": "img/apps/jumia.jpg",
+        "appLink": [                
+                        {
+                            "type": "Android",
+                            "url": "https://play.google.com/store/apps/details?id=com.jumia.android"
+                        },
+                        {
+                            "type": "IOS",
+                            "url": "https://itunes.apple.com/us/app/jumia-online-shopping/id925015459?mt=8"
+                        }                    
+            ]
     }
 
 ]}
