@@ -126,6 +126,52 @@
                             "url": "https://itunes.apple.com/us/app/jumia-online-shopping/id925015459?mt=8"
                         }                    
             ]
+    },
+    {
+        "appName": "News24 Nigeria",
+        "appPublisher": "News24",
+        "publisherUrl": "http://www.news24.com.ng/",
+        "appCategory": "News & Magazines",
+        "appDescription": "Get breaking local and international news from News24, Nigeria's premier online news source.",
+        "appLogo": "img/apps/news24.jpg",
+        "appLink": [                
+                        {
+                            "type": "Android",
+                            "url": "https://play.google.com/store/apps/details?id=com.news24.nigeria"
+                        },
+                        {
+                            "type": "IOS",
+                            "url": "https://itunes.apple.com/za/app/news24/id310970460?mt=8"
+                        }                    
+            ]
+    },
+    {
+        "appName": "AfroCab",
+        "appPublisher": "AfroCab",
+        "publisherUrl": "http://www.getafrocab.com//",
+        "appCategory": "Transport",
+        "appDescription": "AfroCab is the new way of calling a cab in Africa, launching in Lagos, Nigeria.",
+        "appLogo": "img/apps/afrocab.jpg",
+        "appLink": [                
+                        {
+                            "type": "Android",
+                            "url": "https://play.google.com/store/apps/details?id=com.getafrocab.afrocab"
+                        }                  
+            ]
+    },
+    {
+        "appName": "Keke",
+        "appPublisher": "Kuluya Games",
+        "publisherUrl": "http://www.kuluya.com/",
+        "appCategory": "Arcade",
+        "appDescription": "You have a few minutes and lots of miles and towns to cover in this game.",
+        "appLogo": "img/apps/keke.jpg",
+        "appLink": [                
+                        {
+                            "type": "Android",
+                            "url": "https://play.google.com/store/apps/details?id=com.kuluya.keke"
+                        }                  
+            ]
     }
 
 ]}
