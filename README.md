@@ -10,42 +10,40 @@ If you find a good mobile app developed by Nigerians or for Nigerians, you can f
 - Fork the repo.
 - Paste the information in the JSON file (applist.json). Here is an example below:
 
-<pre>
-
-    {
-        "appName": "Akpos Jokes",
-        "appPublisher": "StackArena",
-        "publisherUrl": "http://www.stackarena.com/",
-        "appCategory": "Entertainment",
-        "appDescription": "Akpos jokes app provides funny jokes on your mobile phone, you can add yours and rate others.",
-        "appLogo": "img/apps/akposjokes.jpg",
-        "appLink": [
-                        {
-                            "type": "Android",
-                            "url": "https://play.google.com/store/apps/details?id=com.stackarena.akposjokes"
-                        }
-            ]
-    },
-    {
-        "appName": "Jobberman",
-        "appPublisher": "Jobberman",
-        "publisherUrl": "http://www.jobberman.com",
-        "appCategory": "Social",
-        "appDescription": "Get access to jobs and vacancies in Nigeria from Nigeria's Jobs Website. Jobberman.com",
-        "appLogo": "img/apps/jobberman.jpg",
-        "appLink": [                
-                        {
-                            "type": "Android",
-                            "url": "https://play.google.com/store/apps/details?id=com.jobberman"
-                        },
-                        {
-                            "type": "IOS",
-                            "url": "https://itunes.apple.com/us/app/jobberman/id716603451?mt=8"
-                        }                
-            ]
-    }
-    
-</pre>
+```json
+{
+    "appName": "Akpos Jokes",
+    "appPublisher": "StackArena",
+    "publisherUrl": "http://www.stackarena.com/",
+    "appCategory": "Entertainment",
+    "appDescription": "Akpos jokes app provides funny jokes on your mobile phone, you can add yours and rate others.",
+    "appLogo": "img/apps/akposjokes.jpg",
+    "appLink": [
+                    {
+                        "type": "Android",
+                        "url": "https://play.google.com/store/apps/details?id=com.stackarena.akposjokes"
+                    }
+        ]
+},
+{
+    "appName": "Jobberman",
+    "appPublisher": "Jobberman",
+    "publisherUrl": "http://www.jobberman.com",
+    "appCategory": "Social",
+    "appDescription": "Get access to jobs and vacancies in Nigeria from Nigeria's Jobs Website. Jobberman.com",
+    "appLogo": "img/apps/jobberman.jpg",
+    "appLink": [                
+                    {
+                        "type": "Android",
+                        "url": "https://play.google.com/store/apps/details?id=com.jobberman"
+                    },
+                    {
+                        "type": "IOS",
+                        "url": "https://itunes.apple.com/us/app/jobberman/id716603451?mt=8"
+                    }                
+        ]
+}
+```
 
 - Also include a .jpg file of the app logo in (img/apps) folder Note image should be 228x228 and less than 30kb. You can use http://compressjpeg.com/ to compress JPEG files.
 - Make a pull request.

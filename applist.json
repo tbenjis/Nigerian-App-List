@@ -72,6 +72,52 @@
                             "url": "https://play.google.com/store/apps/details?id=com.pledge51.nigerianconstitution"
                         }               
             ]
+    },
+
+    {
+        "appName": "wakanow",
+        "appPublisher": "wakanow",
+        "publisherUrl": "http://www.wakanow.com/",
+        "appCategory": "Travel & Local",
+        "appDescription": "Wakanow.com is Nigeria’s first and leading online travel company that provides customers with everything they need to research, plan and purchase a trip locally and globally.",
+        "appLogo": "img/apps/wakanow.jpg",
+        "appLink": [                
+                        {
+                            "type": "Android",
+                            "url": "https://play.google.com/store/apps/details?id=com.kvb.wakanow"
+                        }               
+            ]
+    },
+
+    {
+        "appName": "Complete Chemistry",
+        "appPublisher": "ToscanyTech",
+        "publisherUrl": "http://toscanyacademy.com/blog/",
+        "appCategory": "Education",
+        "appDescription": "Complete Chemistry focuses on students learning chemistry. The app covers tutorials, solver, quiz, formulas and dictionary.",
+        "appLogo": "img/apps/completechem.jpg",
+        "appLink": [                
+                        {
+                            "type": "Android",
+                            "url": "https://play.google.com/store/apps/details?id=com.toscanyacademy.completechemistry"
+                        }               
+            ]
+    },
+
+
+    {
+        "appName": "Call Flasher",
+        "appPublisher": "ToscanyTech",
+        "publisherUrl": "http://toscanyacademy.com/toscanytech/",
+        "appCategory": "Tools",
+        "appDescription": "Call Flasher will help you to call flash or beep a number automatically.",
+        "appLogo": "img/apps/callflasher.jpg",
+        "appLink": [                
+                        {
+                            "type": "Android",
+                            "url": "https://play.google.com/store/apps/details?id=com.toscanyacademy.callflasher"
+                        }               
+            ]
     }
 
 ]}
