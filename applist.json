@@ -172,6 +172,24 @@
                             "url": "https://play.google.com/store/apps/details?id=com.kuluya.keke"
                         }                  
             ]
+    },
+    {
+        "appName": "PriceCheck Nigeria",
+        "appPublisher": "PriceCheck",
+        "publisherUrl": "http://www.pricecheck.com.ng/",
+        "appCategory": "Lifestyle",
+        "appDescription": "PriceCheck Nigeria app puts the power of product search right in the palm of your hand.",
+        "appLogo": "img/apps/pricecheck.jpg",
+        "appLink": [                
+                        {
+                            "type": "Android",
+                            "url": "https://play.google.com/store/apps/details?id=ng.com.pricecheck.mtn"
+                        },
+                        {
+                            "type": "IOS",
+                            "url": "https://itunes.apple.com/ng/app/pricecheck-nigeria/id904530328?mt=8"
+                        }                    
+            ]
     }
 
 ]}
