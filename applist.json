@@ -190,6 +190,94 @@
                             "url": "https://itunes.apple.com/ng/app/pricecheck-nigeria/id904530328?mt=8"
                         }                    
             ]
+    },
+    {
+        "appName": "Easy Taxi",
+        "appPublisher": "Easy Taxi",
+        "publisherUrl": "http://www.easytaxi.com/ng",
+        "appCategory": "Transport",
+        "appDescription": "Don't waste your time hailing cabs under the hot sun or in the rain. Find taxis easily with a push of the button.",
+        "appLogo": "img/apps/easytaxi.jpg",
+        "appLink": [                
+                        {
+                            "type": "Android",
+                            "url": "https://play.google.com/store/apps/details?id=br.com.easytaxi"
+                        },
+                        {
+                            "type": "IOS",
+                            "url": "https://itunes.apple.com/app/id567264775?mt=8"
+                        }                    
+            ]
+    },
+    {
+        "appName": "Punch Mobile",
+        "appPublisher": "The Punch Newspapers",
+        "publisherUrl": "http://www.punchng.com/",
+        "appCategory": "News & Magazines",
+        "appDescription": "This is the official Android app of The Punch Newspapers, the most widely read newspaper in Nigeria.",
+        "appLogo": "img/apps/punch.jpg",
+        "appLink": [                
+                        {
+                            "type": "Android",
+                            "url": "https://play.google.com/store/apps/details?id=com.punch.mobile"
+                        }                   
+            ]
+    },
+    {
+        "appName": "Orin Music",
+        "appPublisher": "234 Digital Limited",
+        "publisherUrl": "http://orin.io/",
+        "appCategory": "Music",
+        "appDescription": "Orin is all about enabling artists to do what they love and providing fans with an inspiring selection of music.",
+        "appLogo": "img/apps/orin.jpg",
+        "appLink": [        
+                        {
+                            "type": "IOS",
+                            "url": "https://itunes.apple.com/us/app/orin-music/id729548913?mt=8"
+                        }                    
+            ]
+    },
+    {
+        "appName": "iROKOtv",
+        "appPublisher": "iROKO Partners Ltd",
+        "publisherUrl": "http://irokotv.com/",
+        "appCategory": "Media & Video",
+        "appDescription": "With iROKOtv you can watch Nigerian movies (popularly known as Nollywood).",
+        "appLogo": "img/apps/irokotv.jpg",
+        "appLink": [                
+                        {
+                            "type": "Android",
+                            "url": "https://play.google.com/store/apps/details?id=com.irokotv"
+                        }                  
+            ]
+    },
+    {
+        "appName": "Recipes from Nigeria",
+        "appPublisher": "Exolve Technologies",
+        "publisherUrl": "http://www.exolvemedia.com/",
+        "appCategory": "Health & Fitness",
+        "appDescription": "Nigerian Recipes listed in this app.",
+        "appLogo": "img/apps/recipes.jpg",
+        "appLink": [                
+                        {
+                            "type": "Android",
+                            "url": "https://play.google.com/store/apps/details?id=com.exolvemedia.naijarecipes"
+                        }                   
+            ]
+    },
+    {
+        "appName": "Jobs In Nigeria",
+        "appPublisher": "Jin Innovations Ltd",
+        "publisherUrl": "http://jobsinnigeria.com.ng/",
+        "appCategory": "Social",
+        "appDescription": "Get access to the latest jobs and vacancies.",
+        "appLogo": "img/apps/jobsinnigeria.jpg",
+        "appLink": [                
+                        {
+                            "type": "Android",
+                            "url": "https://play.google.com/store/apps/details?id=com.jobsinnigeria.android"
+                        }                   
+            ]
     }
 
 ]}
