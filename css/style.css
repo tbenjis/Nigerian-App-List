@@ -208,6 +208,9 @@ a:hover {
 .container-fluid:after {
   clear: both;
 }
+#canvas-holder{
+  width:90%;
+}
 /*!
  * Bootstrap Responsive v2.0.4
  *

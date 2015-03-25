@@ -33,6 +33,7 @@
 	<!-- AngularJs Script and app script -->
 	<script src="js/angular.min.js"></script>
 	<script src="js/app.js"></script>
+    <script src="js/Chart.min.js"></script>
 </head>
 
 <body>
@@ -67,9 +68,11 @@
         </div>
 
         <!-- Graph -->
-            <div class="span3 appsection">
-                
-            </div>  
+        <div class="span4 appsection">
+            <div id="canvas-holder">
+                <canvas id="chart-area" width="250" height="250"/>
+            </div>
+        </div>  
         <!-- ==========================
         APPS
         =========================== -->
