@@ -5,7 +5,7 @@
   The script reads all app data from applist.json and displays
   them with filters.
   image folder
-  /img/apps - must contain a 228x228 logo of the app < 40kb
+  /img/apps - must contain a 228x228 logo of the app < 30kb
 
   Controlers
   ----------

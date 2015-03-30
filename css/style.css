@@ -174,7 +174,7 @@ a:hover {
   width: 300px;
 }
 .span3 {
-  width: 220px;
+  width: 280px;
 }
 .span2 {
   width: 140px;
@@ -447,7 +447,7 @@ a:hover {
     width: 228px;
   }
   .span3 {
-    width: 166px;
+    width: 208px;
   }
   .span2 {
     width: 104px;
@@ -1443,7 +1443,7 @@ ul li a:hover {
     width: 370px;
   }
   .span3 {
-    width: 270px;
+    width: 340px;
   }
   .span2 {
     width: 170px;
@@ -1621,6 +1621,12 @@ ul li a:hover {
 }
 
 @media (max-width: 767px) {
+  #canvas-holder{
+    width:30%;
+    margin-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
   body {
     padding-top: 95px;
   }
