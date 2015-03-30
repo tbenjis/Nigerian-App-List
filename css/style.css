@@ -1249,6 +1249,10 @@ color: #cfb798;
     width: 85%;
 
 }
+.stats{
+  text-align: center;
+  margin-bottom: 10px;
+}
 .appsection #cover {
   float: left;
   position: relative;
