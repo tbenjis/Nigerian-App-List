@@ -2,7 +2,7 @@
     {
         "appName": "Akpos Jokes",
         "appPublisher": "StackArena",
-        "publisherUrl": "http://www.stackarena.com/",
+        "publisherUrl": "http://stackarena.com/",
         "appCategory": "Entertainment",
         "appDescription": "Akpos jokes app provides funny jokes on your mobile phone, you can add yours and rate others.",
         "appLogo": "img/apps/akposjokes.jpg",
@@ -73,50 +73,224 @@
                         }               
             ]
     },
-
     {
-        "appName": "wakanow",
-        "appPublisher": "wakanow",
-        "publisherUrl": "http://www.wakanow.com/",
-        "appCategory": "Travel & Local",
-        "appDescription": "Wakanow.com is Nigeria’s first and leading online travel company that provides customers with everything they need to research, plan and purchase a trip locally and globally.",
-        "appLogo": "img/apps/wakanow.jpg",
+        "appName": "Wynk Music Nigeria",
+        "appPublisher": "Airtel Nigeria",
+        "publisherUrl": "http://www.wynk.ng/",
+        "appCategory": "Music & Audio",
+        "appDescription": "Wynk Music Nigeria is a music streaming app with over 20 million songs from the top national and international artists.",
+        "appLogo": "img/apps/wynkmusic.jpg",
         "appLink": [                
                         {
                             "type": "Android",
-                            "url": "https://play.google.com/store/apps/details?id=com.kvb.wakanow"
-                        }               
+                            "url": "https://play.google.com/store/apps/details?id=com.airtel.ng.android.music"
+                        },
+                        {
+                            "type": "IOS",
+                            "url": "https://itunes.apple.com/ng/app/wynk-music-nigeria/id918176985?mt=8"
+                        }                    
             ]
     },
-
     {
-        "appName": "Complete Chemistry",
-        "appPublisher": "ToscanyTech",
-        "publisherUrl": "http://toscanyacademy.com/blog/",
-        "appCategory": "Education",
-        "appDescription": "Complete Chemistry focuses on students learning chemistry. The app covers tutorials, solver, quiz, formulas and dictionary.",
-        "appLogo": "img/apps/completechem.jpg",
+        "appName": "Konga",
+        "appPublisher": "Konga Online Shopping Ltd",
+        "publisherUrl": "http://www.konga.com/",
+        "appCategory": "Shopping",
+        "appDescription": "The Konga Android App is a convenient, secure and fast way to access your favourite products and services on konga.com.",
+        "appLogo": "img/apps/konga.jpg",
         "appLink": [                
                         {
                             "type": "Android",
-                            "url": "https://play.google.com/store/apps/details?id=com.toscanyacademy.completechemistry"
-                        }               
+                            "url": "https://play.google.com/store/apps/details?id=com.konga.androida"
+                        },
+                        {
+                            "type": "IOS",
+                            "url": "https://itunes.apple.com/us/app/konga/id880918394?mt=8"
+                        }                    
             ]
     },
-
-
     {
-        "appName": "Call Flasher",
-        "appPublisher": "ToscanyTech",
-        "publisherUrl": "http://toscanyacademy.com/toscanytech/",
-        "appCategory": "Tools",
-        "appDescription": "Call Flasher will help you to call flash or beep a number automatically.",
-        "appLogo": "img/apps/callflasher.jpg",
+        "appName": "JUMIA Online shopping",
+        "appPublisher": "AIG Mobile",
+        "publisherUrl": "http://www.jumia.com/",
+        "appCategory": "Shopping",
+        "appDescription": "Experience shopping at its best! Shop anywhere at any time with the convenient and secure JUMIA app.",
+        "appLogo": "img/apps/jumia.jpg",
         "appLink": [                
                         {
                             "type": "Android",
-                            "url": "https://play.google.com/store/apps/details?id=com.toscanyacademy.callflasher"
-                        }               
+                            "url": "https://play.google.com/store/apps/details?id=com.jumia.android"
+                        },
+                        {
+                            "type": "IOS",
+                            "url": "https://itunes.apple.com/us/app/jumia-online-shopping/id925015459?mt=8"
+                        }                    
+            ]
+    },
+    {
+        "appName": "News24 Nigeria",
+        "appPublisher": "News24",
+        "publisherUrl": "http://www.news24.com.ng/",
+        "appCategory": "News & Magazines",
+        "appDescription": "Get breaking local and international news from News24, Nigeria's premier online news source.",
+        "appLogo": "img/apps/news24.jpg",
+        "appLink": [                
+                        {
+                            "type": "Android",
+                            "url": "https://play.google.com/store/apps/details?id=com.news24.nigeria"
+                        },
+                        {
+                            "type": "IOS",
+                            "url": "https://itunes.apple.com/za/app/news24/id310970460?mt=8"
+                        }                    
+            ]
+    },
+    {
+        "appName": "AfroCab",
+        "appPublisher": "AfroCab",
+        "publisherUrl": "http://www.getafrocab.com//",
+        "appCategory": "Transport",
+        "appDescription": "AfroCab is the new way of calling a cab in Africa, launching in Lagos, Nigeria.",
+        "appLogo": "img/apps/afrocab.jpg",
+        "appLink": [                
+                        {
+                            "type": "Android",
+                            "url": "https://play.google.com/store/apps/details?id=com.getafrocab.afrocab"
+                        }                  
+            ]
+    },
+    {
+        "appName": "Keke",
+        "appPublisher": "Kuluya Games",
+        "publisherUrl": "http://www.kuluya.com/",
+        "appCategory": "Arcade",
+        "appDescription": "You have a few minutes and lots of miles and towns to cover in this game.",
+        "appLogo": "img/apps/keke.jpg",
+        "appLink": [                
+                        {
+                            "type": "Android",
+                            "url": "https://play.google.com/store/apps/details?id=com.kuluya.keke"
+                        }                  
+            ]
+    },
+    {
+        "appName": "PriceCheck Nigeria",
+        "appPublisher": "PriceCheck",
+        "publisherUrl": "http://www.pricecheck.com.ng/",
+        "appCategory": "Lifestyle",
+        "appDescription": "PriceCheck Nigeria app puts the power of product search right in the palm of your hand.",
+        "appLogo": "img/apps/pricecheck.jpg",
+        "appLink": [                
+                        {
+                            "type": "Android",
+                            "url": "https://play.google.com/store/apps/details?id=ng.com.pricecheck.mtn"
+                        },
+                        {
+                            "type": "IOS",
+                            "url": "https://itunes.apple.com/ng/app/pricecheck-nigeria/id904530328?mt=8"
+                        }                    
+            ]
+    },
+    {
+        "appName": "Easy Taxi",
+        "appPublisher": "Easy Taxi",
+        "publisherUrl": "http://www.easytaxi.com/ng",
+        "appCategory": "Transport",
+        "appDescription": "Don't waste your time hailing cabs under the hot sun or in the rain. Find taxis easily with a push of the button.",
+        "appLogo": "img/apps/easytaxi.jpg",
+        "appLink": [                
+                        {
+                            "type": "Android",
+                            "url": "https://play.google.com/store/apps/details?id=br.com.easytaxi"
+                        },
+                        {
+                            "type": "IOS",
+                            "url": "https://itunes.apple.com/app/id567264775?mt=8"
+                        }                    
+            ]
+    },
+    {
+        "appName": "Punch Mobile",
+        "appPublisher": "The Punch Newspapers",
+        "publisherUrl": "http://www.punchng.com/",
+        "appCategory": "News & Magazines",
+        "appDescription": "This is the official Android app of The Punch Newspapers, the most widely read newspaper in Nigeria.",
+        "appLogo": "img/apps/punch.jpg",
+        "appLink": [                
+                        {
+                            "type": "Android",
+                            "url": "https://play.google.com/store/apps/details?id=com.punch.mobile"
+                        }                   
+            ]
+    },
+    {
+        "appName": "Orin Music",
+        "appPublisher": "234 Digital Limited",
+        "publisherUrl": "http://orin.io/",
+        "appCategory": "Music",
+        "appDescription": "Orin is all about enabling artists to do what they love and providing fans with an inspiring selection of music.",
+        "appLogo": "img/apps/orin.jpg",
+        "appLink": [        
+                        {
+                            "type": "IOS",
+                            "url": "https://itunes.apple.com/us/app/orin-music/id729548913?mt=8"
+                        }                    
+            ]
+    },
+    {
+        "appName": "iROKOtv",
+        "appPublisher": "iROKO Partners Ltd",
+        "publisherUrl": "http://irokotv.com/",
+        "appCategory": "Media & Video",
+        "appDescription": "With iROKOtv you can watch Nigerian movies (popularly known as Nollywood).",
+        "appLogo": "img/apps/irokotv.jpg",
+        "appLink": [                
+                        {
+                            "type": "Android",
+                            "url": "https://play.google.com/store/apps/details?id=com.irokotv"
+                        }                  
+            ]
+    },
+    {
+        "appName": "Recipes from Nigeria",
+        "appPublisher": "Exolve Technologies",
+        "publisherUrl": "http://www.exolvemedia.com/",
+        "appCategory": "Health & Fitness",
+        "appDescription": "Nigerian Recipes listed in this app.",
+        "appLogo": "img/apps/recipes.jpg",
+        "appLink": [                
+                        {
+                            "type": "Android",
+                            "url": "https://play.google.com/store/apps/details?id=com.exolvemedia.naijarecipes"
+                        }                   
+            ]
+    },
+    {
+        "appName": "Jobs In Nigeria",
+        "appPublisher": "Jin Innovations Ltd",
+        "publisherUrl": "http://jobsinnigeria.com.ng/",
+        "appCategory": "Social",
+        "appDescription": "Get access to the latest jobs and vacancies.",
+        "appLogo": "img/apps/jobsinnigeria.jpg",
+        "appLink": [                
+                        {
+                            "type": "Android",
+                            "url": "https://play.google.com/store/apps/details?id=com.jobsinnigeria.android"
+                        }                   
+            ]
+    },
+    {
+        "appName": "Nigerian Criminal Code 1990",
+        "appPublisher": "HQBytes",
+        "publisherUrl": "http://www.hqbytes.com/",
+        "appCategory": "Books & Reference",
+        "appDescription": "Full advanced text search of sections and keywords of the Nigerian Criminal Code Act.",
+        "appLogo": "img/apps/ccact.jpg",
+        "appLink": [                
+                        {
+                            "type": "Android",
+                            "url": "https://play.google.com/store/apps/details?id=com.hqbytes.cca"
+                        }                   
             ]
     }
 
