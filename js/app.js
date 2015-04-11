@@ -5,7 +5,7 @@
   The script reads all app data from applist.json and displays
   them with filters.
   image folder
-  /img/apps - must contain a 228x228 logo of the app < 40kb
+  /img/apps - must contain a 228x228 logo of the app < 30kb
 
   Controlers
   ----------
@@ -31,9 +31,10 @@ app.filter('startFrom', function () {
     return [];
   };
 });
+
 //we get the list from applist.json
 controllers.AppListController = function($scope, $http, $filter) {
-
+    
   $http.get('./applist.json').success(function(data) {
   $scope.applist = data.apps.sort(randSrt); //sort the applist here    
 
@@ -43,7 +44,6 @@ controllers.AppListController = function($scope, $http, $filter) {
    $scope.total = $scope.applist.length;
    $scope.totalPages = Math.ceil($scope.total/$scope.perPage);
 
-  
   //we count both android and IOS apps for the graph 
   getCount = function(strType){
     return $filter('filter')( $scope.applist, {$:strType}, true).length
