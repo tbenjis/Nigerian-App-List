@@ -12,7 +12,7 @@
   AppListController
 
   #######################################################################*/
-var app = angular.module('naijaApp', []); //The app module
+var app = angular.module('naijaApp', ['ui.bootstrap']); //The app module
 
 //creating a controller object incase we need more controllers
 var controllers = {};
@@ -22,11 +22,27 @@ function randSrt(){
       return (Math.round(Math.random())-0.5); 
 }
 
+app.filter('startFrom', function () {
+  return function (input, start) {
+    if (input) {
+      start = +start;
+      return input.slice(start);
+    }
+    return [];
+  };
+});
+
 //we get the list from applist.json
 controllers.AppListController = function($scope, $http, $filter) {
     
   $http.get('./applist.json').success(function(data) {
   $scope.applist = data.apps.sort(randSrt); //sort the applist here    
+
+   //pagination settings
+   $scope.currentPage = 1;
+   $scope.perPage =6;
+   $scope.total = $scope.applist.length;
+   $scope.totalPages = Math.ceil($scope.total/$scope.perPage);
 
   //we count both android and IOS apps for the graph 
   getCount = function(strType){
