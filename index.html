@@ -21,8 +21,8 @@
 
     <link href="http://fonts.googleapis.com/css?family=Ubuntu&amp;subset=latin" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Gentium+Book+Basic' rel='stylesheet' type='text/css'>
+
     <link rel="stylesheet" type="text/css" href="./css/style.css?2908" media="all">
-    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
 
     <!--[if lt IE 9]> <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
 
@@ -32,10 +32,12 @@
     <link rel="apple-touch-icon" sizes="72x72" href="./img/ico/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" href="./assets/ico/apple-touch-icon-57x57.png">
     <!-- AngularJs Script and app script -->
+    
     <script src="js/angular.min.js"></script>
     <script src="js/app.js"></script>
     <script src="js/Chart.min.js"></script>
     <script src="js/ui-bootstrap-tpls-0.10.0.js" type="text/javascript"/>
+    
 </head>
 
 <body>
@@ -57,49 +59,55 @@
         </ul>
     </div>
 
-
-    <div class="container">
-        <!-- ==========================
-        SEARCH
-        =========================== -->
-        <div class="row">
-            
-            <div class="searchpane">
-                <input type="text" class="span10" placeholder="Search for an app, category or publisher" ng-model="searchText"/>
-            </div>
-        </div>
-
-        <!-- Graph -->
-        <div class="span3">
-            <div id="canvas-holder">
-                <h2 title="Stats" class="stats">Statistics</h2>
-                <canvas id="chart-area" width="250" height="250"/>
-            </div>
-        </div>  
-        <!-- ==========================
-        APPS
-        =========================== -->
-        <div class="row" id="appswrap" ng-controller="AppListController">
-            <div class="span4 appsection" ng-repeat="app in applist | filter:searchText | startFrom:(currentPage-1)*perPage | limitTo:perPage">
-                <div class="view"></div>
-                <div title="{{ app.appName }}" id="cover" style="background:black url('{{app.appLogo}}') no-repeat center;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;">
+    <!-- CONTROLLER DIV -->
+    <div ng-controller="AppListController">
+        <div class="container">
+            <!-- ==========================
+            SEARCH
+            =========================== -->
+            <div class="row">            
+                <div class="searchpane">
+                    <input type="text" class="span10" placeholder="Search for an app, category or publisher" ng-model="searchText"/>
                 </div>
-                <h2 title="{{ app.appName }}">{{app.appName}}</h2>
+            </div>
 
-              <h3><a href="{{app.publisherUrl}}" target="_blank">{{app.appPublisher}}</a></h3>
-              <p class="level">{{app.appCategory}}</p>
-              <p class="description">{{app.appDescription}}
-                <!-- Get the app links -->
-                <span class="dwnspan" >
-                    <span ng-repeat="links in app.appLink">
-                         <a href="{{links.url}}" class="applink" target="_blank" alt="{{links.type}}">{{links.type}}</a>
+            <!-- Graph -->
+            <div class="span3">
+                <div id="canvas-holder">
+                    <h2 title="Stats" class="stats">Statistics</h2>
+                    <canvas id="chart-area" width="250" height="250"/>
+                </div>
+            </div>  
+            <!-- ==========================
+            APPS
+            =========================== -->
+            <div class="row" id="appswrap">
+                <div class="span4 appsection" ng-repeat="app in applist | filter:searchText | startFrom:(currentPage-1)*perPage | limitTo:perPage">
+                    <div class="view"></div>
+                    <div title="{{ app.appName }}" id="cover" style="background:black url('{{app.appLogo}}') no-repeat center;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;">
+                    </div>
+                    <h2 title="{{ app.appName }}">{{app.appName}}</h2>
+
+                  <h3><a href="{{app.publisherUrl}}" target="_blank">{{app.appPublisher}}</a></h3>
+                  <p class="level">{{app.appCategory}}</p>
+                  <p class="description">{{app.appDescription}}
+                    <!-- Get the app links -->
+                    <span class="dwnspan" >
+                        <span ng-repeat="links in app.appLink">
+                             <a href="{{links.url}}" class="applink" target="_blank" alt="{{links.type}}">{{links.type}}</a>
+                        </span>
                     </span>
-                </span>
-              </p>
-            </div>          
+                  </p>
+                </div>          
+            </div>
+            <!-- APPS -->
+            
+            <!-- Pagination Links -->
+            <div class="paginate">
+                <pagination page="currentPage" max-size="maxSize" total-items="total" items-per-page="perPage"></pagination> 
+            </div>
         </div>
-        <pagination class="pull-right"page="currentPage" max-size="totalPages" total-items="total" items-per-page="perPage"></pagination> 
-        <!-- APPS -->
+
     </div>
 
     <!-- ==========================

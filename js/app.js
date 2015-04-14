@@ -39,8 +39,9 @@ controllers.AppListController = function($scope, $http, $filter) {
   $scope.applist = data.apps.sort(randSrt); //sort the applist here    
 
    //pagination settings
+   $scope.maxSize=5;
    $scope.currentPage = 1;
-   $scope.perPage =6;
+   $scope.perPage =7;
    $scope.total = $scope.applist.length;
    $scope.totalPages = Math.ceil($scope.total/$scope.perPage);
 
