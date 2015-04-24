@@ -1,4 +1,4 @@
-﻿{ "apps" : [
+{ "apps" : [
     {
         "appName": "Akpos Jokes",
         "appPublisher": "StackArena",
@@ -365,5 +365,4 @@
             ]
     }
 
-
-]}
+  ]}
