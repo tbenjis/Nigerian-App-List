@@ -363,6 +363,80 @@
                         
 
             ]
+    },
+
+    {
+        "appName": "GTBank",
+        "appPublisher": "Guaranty Trust Bank",
+        "publisherUrl": "http://www.gtbank.com/",
+        "appCategory": "Finance",
+        "appDescription": " GTBank Mobile app allows you to perform transactions and manage your bank account(s) from your mobile device.",
+        "appLogo": "img/apps/gtb.jpg",
+        "appLink": [                
+                        {
+                            "type": "Android",
+                            "url": "https://play.google.com/store/apps/details?id=com.vanso.gtbankapp&hl=en"
+                        },
+
+                        {
+                            "type": "IOS",
+                            "url": "https://itunes.apple.com/us/app/gtbank/id573523974?mt=8"
+                        },
+
+                         {
+                            "type": "BlackBerry",
+                            "url": "https://appworld.blackberry.com/webstore/content/19109906/?lang=en"
+                        }
+
+            ]
+    },
+
+    {
+        "appName": "Quickteller",
+        "appPublisher": "Interswitch Limited",
+        "publisherUrl": "https://www.quickteller.com/",
+        "appCategory": "Finance",
+        "appDescription": "Quickteller is the easiest and most convenient way to buy airtime, make payments, send and receive money.",
+        "appLogo": "img/apps/quickteller.jpg",
+        "appLink": [                
+                        {
+                            "type": "Android",
+                            "url": "https://play.google.com/store/apps/details?id=app.mypackage.qtmobile"
+                        },
+
+                        {
+                            "type": "IOS",
+                            "url": "https://itunes.apple.com/ng/app/quickteller/id654084053"
+                        },
+
+                         {
+                            "type": "BlackBerry",
+                            "url": "https://appworld.blackberry.com/webstore/content/25001874/?countrycode=NG&lang=en"
+                        },
+
+                        {
+                            "type": "Windows",
+                            "url": "https://www.windowsphone.com/en-gb/store/app/quickteller/43641865-16fd-4c8f-b216-1a8f33112377"
+                        }
+
+            ]
+    },
+
+    {
+        "appName": "PocketMoni",
+        "appPublisher": "Your Bank on Your Mobile",
+        "publisherUrl": "http://www.pocketmoni.com/",
+        "appCategory": "Finance",
+        "appDescription": "PocketMoni is a mobile payment solution designed to allow users conduct financial transactions anytime, anywhere.",
+        "appLogo": "img/apps/pocketmoni.jpg",
+        "appLink": [                
+                        {
+                            "type": "Android",
+                            "url": "https://play.google.com/store/apps/details?id=com.pocketmoni.ui"
+                        }
+            ]
     }
+   
+
 
   ]}
