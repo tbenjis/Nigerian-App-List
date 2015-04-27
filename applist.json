@@ -293,7 +293,6 @@
                         }                   
             ]
     },
-
     {
         "appName": "Channels",
         "appPublisher": "IDS AFRICA LIMITED  ",
@@ -306,7 +305,6 @@
                             "type": "Android",
                             "url": "https://play.google.com/store/apps/details?id=com.channelstv.channels.mobile&hl=en."
                         },
-
                         {
                             "type": "IOS",
                             "url": "https://itunes.apple.com/ng/app/channelstv-mobile/id674628071?mt=8"
@@ -315,7 +313,6 @@
 
             ]
     },
-
     {
         "appName": "Afrinolly",
         "appPublisher": "FCO Limited",
@@ -328,17 +325,14 @@
                             "type": "Android",
                             "url": "https://play.google.com/store/apps/details?id=com.fcolimited.Afrinolly&hl=en."
                         },
-
                         {
                             "type": "IOS",
                             "url": "https://itunes.apple.com/bm/app/afrinolly-for-ipad/id626847735?mt=8"
                         },
-
                         {
                             "type": "BlackBerry",
                             "url": "https://appworld.blackberry.com/webstore/content/61990/?lang=en"
                         },
-
                         {
                             "type": "Windows",
                             "url": "https://www.windowsphone.com/en-ng/store/app/afrinolly/ccf8a50e-104d-41db-915b-82a567d7ac81"
@@ -346,7 +340,6 @@
 
             ]
     },
-
     {
         "appName": "Spinlet",
         "appPublisher": "Spinlet Limited",
@@ -364,7 +357,6 @@
 
             ]
     },
-
     {
         "appName": "GTBank",
         "appPublisher": "Guaranty Trust Bank",
@@ -377,20 +369,17 @@
                             "type": "Android",
                             "url": "https://play.google.com/store/apps/details?id=com.vanso.gtbankapp&hl=en"
                         },
-
                         {
                             "type": "IOS",
                             "url": "https://itunes.apple.com/us/app/gtbank/id573523974?mt=8"
                         },
-
-                         {
+                        {
                             "type": "BlackBerry",
                             "url": "https://appworld.blackberry.com/webstore/content/19109906/?lang=en"
                         }
 
             ]
     },
-
     {
         "appName": "Quickteller",
         "appPublisher": "Interswitch Limited",
@@ -403,17 +392,14 @@
                             "type": "Android",
                             "url": "https://play.google.com/store/apps/details?id=app.mypackage.qtmobile"
                         },
-
                         {
                             "type": "IOS",
                             "url": "https://itunes.apple.com/ng/app/quickteller/id654084053"
                         },
-
-                         {
+                        {
                             "type": "BlackBerry",
                             "url": "https://appworld.blackberry.com/webstore/content/25001874/?countrycode=NG&lang=en"
                         },
-
                         {
                             "type": "Windows",
                             "url": "https://www.windowsphone.com/en-gb/store/app/quickteller/43641865-16fd-4c8f-b216-1a8f33112377"
@@ -421,7 +407,6 @@
 
             ]
     },
-
     {
         "appName": "PocketMoni",
         "appPublisher": "Your Bank on Your Mobile",
@@ -437,6 +422,5 @@
             ]
     }
    
-
 
   ]}
