@@ -1,6 +1,6 @@
 # Nigerian App List
 
-We decided to maintain an open list of good mobile applications built in Nigeria or developed for Nigerians. This will allow Nigerians find locally developed mobile applications on different platforms specifically (Android and IOS) for now.
+We decided to maintain an open list of good mobile applications built in Nigeria or developed for Nigerians. This will allow Nigerians find locally developed mobile applications on different platforms.
 
 
 ## How to add an app 
