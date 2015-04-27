@@ -41,7 +41,7 @@ controllers.AppListController = function($scope, $http, $filter) {
    //pagination settings
    $scope.maxSize = 5;
    $scope.currentPage = 1;
-   $scope.perPage = 40;
+   $scope.perPage = 42;
    $scope.total = $scope.applist.length;
    $scope.totalPages = Math.ceil($scope.total/$scope.perPage);
 
@@ -63,6 +63,18 @@ controllers.AppListController = function($scope, $http, $filter) {
             color: "#c0392b",
             highlight: "#e74c3c",
             label: "IOS"
+          },
+          {
+            value: getCount('BlackBerry'),
+            color: "#D24726",
+            highlight: "#DC572E",
+            label: "BlackBerry"
+          },
+          {
+            value: getCount('Windows'),
+            color: "#2672EC",
+            highlight: "#2E8DEF",
+            label: "Windows"
           }
         ];
 

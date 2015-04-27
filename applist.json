@@ -1,4 +1,4 @@
-﻿{ "apps" : [
+{ "apps" : [
     {
         "appName": "Akpos Jokes",
         "appPublisher": "StackArena",
@@ -292,6 +292,151 @@
                             "url": "https://play.google.com/store/apps/details?id=com.hqbytes.cca"
                         }                   
             ]
-    }
+    },
 
-]}
+    {
+        "appName": "Channels",
+        "appPublisher": "IDS AFRICA LIMITED  ",
+        "publisherUrl": "http://www.channelstv.com",
+        "appCategory": "News & Magazines",
+        "appDescription": "Channels Mobile for Androids help you stay connected to the news where ever you are.",
+        "appLogo": "img/apps/channels.jpg",
+        "appLink": [                
+                        {
+                            "type": "Android",
+                            "url": "https://play.google.com/store/apps/details?id=com.channelstv.channels.mobile&hl=en."
+                        },
+
+                        {
+                            "type": "IOS",
+                            "url": "https://itunes.apple.com/ng/app/channelstv-mobile/id674628071?mt=8"
+                        }
+
+
+            ]
+    },
+
+    {
+        "appName": "Afrinolly",
+        "appPublisher": "FCO Limited",
+        "publisherUrl": "http://www.fcolimited.com",
+        "appCategory": "Entertainment",
+        "appDescription": "On Afrinolly you get to watch the best of Nigerian movies and other African movie on your phone.",
+        "appLogo": "img/apps/afrinolly.jpg",
+        "appLink": [                
+                        {
+                            "type": "Android",
+                            "url": "https://play.google.com/store/apps/details?id=com.fcolimited.Afrinolly&hl=en."
+                        },
+
+                        {
+                            "type": "IOS",
+                            "url": "https://itunes.apple.com/bm/app/afrinolly-for-ipad/id626847735?mt=8"
+                        },
+
+                        {
+                            "type": "BlackBerry",
+                            "url": "https://appworld.blackberry.com/webstore/content/61990/?lang=en"
+                        },
+
+                        {
+                            "type": "Windows",
+                            "url": "https://www.windowsphone.com/en-ng/store/app/afrinolly/ccf8a50e-104d-41db-915b-82a567d7ac81"
+                        }               
+
+            ]
+    },
+
+    {
+        "appName": "Spinlet",
+        "appPublisher": "Spinlet Limited",
+        "publisherUrl": "http://www.spinlet.com",
+        "appCategory": "Music & Audio",
+        "appDescription": "Spinlet brings you a world of African music, including tracks from Nigeria, Kenya, South Africa and more.",
+        "appLogo": "img/apps/spinlet.jpg",
+        "appLink": [                
+                        {
+                            "type": "Android",
+                            "url": "https://play.google.com/store/apps/details?id=com.spinlet.application&hl=en."
+                        }
+
+                        
+
+            ]
+    },
+
+    {
+        "appName": "GTBank",
+        "appPublisher": "Guaranty Trust Bank",
+        "publisherUrl": "http://www.gtbank.com/",
+        "appCategory": "Finance",
+        "appDescription": " GTBank Mobile app allows you to perform transactions and manage your bank account(s) from your mobile device.",
+        "appLogo": "img/apps/gtb.jpg",
+        "appLink": [                
+                        {
+                            "type": "Android",
+                            "url": "https://play.google.com/store/apps/details?id=com.vanso.gtbankapp&hl=en"
+                        },
+
+                        {
+                            "type": "IOS",
+                            "url": "https://itunes.apple.com/us/app/gtbank/id573523974?mt=8"
+                        },
+
+                         {
+                            "type": "BlackBerry",
+                            "url": "https://appworld.blackberry.com/webstore/content/19109906/?lang=en"
+                        }
+
+            ]
+    },
+
+    {
+        "appName": "Quickteller",
+        "appPublisher": "Interswitch Limited",
+        "publisherUrl": "https://www.quickteller.com/",
+        "appCategory": "Finance",
+        "appDescription": "Quickteller is the easiest and most convenient way to buy airtime, make payments, send and receive money.",
+        "appLogo": "img/apps/quickteller.jpg",
+        "appLink": [                
+                        {
+                            "type": "Android",
+                            "url": "https://play.google.com/store/apps/details?id=app.mypackage.qtmobile"
+                        },
+
+                        {
+                            "type": "IOS",
+                            "url": "https://itunes.apple.com/ng/app/quickteller/id654084053"
+                        },
+
+                         {
+                            "type": "BlackBerry",
+                            "url": "https://appworld.blackberry.com/webstore/content/25001874/?countrycode=NG&lang=en"
+                        },
+
+                        {
+                            "type": "Windows",
+                            "url": "https://www.windowsphone.com/en-gb/store/app/quickteller/43641865-16fd-4c8f-b216-1a8f33112377"
+                        }
+
+            ]
+    },
+
+    {
+        "appName": "PocketMoni",
+        "appPublisher": "Your Bank on Your Mobile",
+        "publisherUrl": "http://www.pocketmoni.com/",
+        "appCategory": "Finance",
+        "appDescription": "PocketMoni is a mobile payment solution designed to allow users conduct financial transactions anytime, anywhere.",
+        "appLogo": "img/apps/pocketmoni.jpg",
+        "appLink": [                
+                        {
+                            "type": "Android",
+                            "url": "https://play.google.com/store/apps/details?id=com.pocketmoni.ui"
+                        }
+            ]
+    }
+   
+
+
+  ]}
