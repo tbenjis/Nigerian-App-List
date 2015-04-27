@@ -66,8 +66,8 @@ controllers.AppListController = function($scope, $http, $filter) {
           },
           {
             value: getCount('BlackBerry'),
-            color: "#D24726",
-            highlight: "#DC572E",
+            color: "#f67f2f",
+            highlight: "#FF981D",
             label: "BlackBerry"
           },
           {
