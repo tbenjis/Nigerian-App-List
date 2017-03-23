@@ -49,7 +49,6 @@ If you find a good mobile app developed by Nigerians or for Nigerians, you can f
 - Make a pull request.
 
 
-Alternatively, you can send us an email with the app info : info@nigerianapplist.com
 
 ## Contributing to the project
 
@@ -59,4 +58,4 @@ Every application added to the main repo is automatically updated on the website
 
 Thanks!
 
-Check out the website : http://nigerianapplist.com
+Check out the website : http://tbenjis.github.io/Nigerian-App-List/
