@@ -1,4 +1,5 @@
 # Nigerian App List
+[![Build Status](https://travis-ci.com/tbenjis/Nigerian-App-List.svg?branch=master)](https://travis-ci.com/tbenjis/Nigerian-App-List)
 
 We decided to maintain an open list of good mobile applications built in Nigeria or developed for Nigerians. This will allow Nigerians find locally developed mobile applications on different platforms.
 
